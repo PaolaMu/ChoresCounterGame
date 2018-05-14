@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Chores Counter Game</string>
+    <string name="parents">Parents</string>
+    <string name="_0">0</string>
+    <string name="meal_time_1">Meal time +1</string>
+    <string name="clean_up_2">Clean up +2</string>
+    <string name="reading_2">Reading +2</string>
+    <string name="work_time_3">Work Time +3</string>
+    <string name="story_time_3">Story Time +3</string>
+    <string name="kids">Kids</string>
+    <string name="eat_your_meal_1">Eat your meal +1</string>
+    <string name="pick_up_toys_2">Pick up toys +2</string>
+    <string name="nap_time_2">Nap time +2</string>
+    <string name="playtime_3">Playtime +3</string>
+    <string name="in_bed_by_9pm_3">in bed by 9pm +3</string>
+    <string name="new_day">New day</string>
+    <string name="family_image">family_image</string>
 </resources>

@@ -2,7 +2,6 @@ package com.example.android.chorescountergame;
 
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
-        import android.view.MenuItem;
         import android.view.View;
         import android.widget.TextView;
 
@@ -31,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
      * Increase the score for Parents by 2 points.
      */
     public void addTwoForParents(View v) {
-        scoreParents =scoreParents + 2;
+        scoreParents = scoreParents + 2;
         displayForParents (scoreParents);
     }
 
@@ -61,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given score for Parents.
      */
     public void displayForParents(int scoreParents) {
-        TextView scoreView = (TextView) findViewById(R.id.parents_score);
+        TextView scoreView = findViewById(R.id.parents_score);
         scoreView.setText(String.valueOf(scoreParents));
     }
     /**
@@ -106,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
      * Displays the given score for Kids.
      */
     public void displayForKids(int scoreKids) {
-        TextView scoreView = (TextView) findViewById(R.id.kids_score);
+        TextView scoreView = findViewById(R.id.kids_score);
         scoreView.setText(String.valueOf(scoreKids));
     }
 
